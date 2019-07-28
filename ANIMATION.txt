@@ -1,0 +1,66 @@
+<style>
+	#Layer_1{
+		animation: hopin-1 25s linear;
+	}
+	#Layer_2{
+		animation: hopin-2 25s linear;
+	}
+	#Layer_3{
+		animation: hopin-3 25s linear;
+	}
+	#Layer_4{
+		animation: hopin-4 25s linear;
+	}
+	#Layer_5{
+		animation: hopin-5 25s linear;
+	}
+	#Layer_6{
+		animation: hopin-6 25s linear;
+	}
+	#Layer_7{
+		animation: hopin-7 25s linear;
+	}
+	#Layer_8{
+		animation: hopin-8 25s linear;
+	}
+	@keyframes hopin-1{
+		0%{transform: translateY(-1000px)}
+		0%{transform: translateY(-1000px)}
+		12.5%{transform: translateY(0px)}
+	}
+	@keyframes hopin-2{
+		0%{transform: translateY(-1000px)}
+		12.5%{transform: translateY(-1000px)}
+		25%{transform: translateY(0px)}
+	}
+	@keyframes hopin-3{
+		0%{transform: translateY(-1000px)}
+		25%{transform: translateY(-1000px)}
+		37.5%{transform: translateY(0px)}
+	}
+	@keyframes hopin-4{
+		0%{transform: translateY(-1000px)}
+		37.5%{transform: translateY(-1000px)}
+		50%{transform: translateY(0px)}
+	}
+	@keyframes hopin-5{
+		0%{transform: translateY(-1000px)}
+		50%{transform: translateY(-1000px)}
+		62.5%{transform: translateY(0px)}
+	}
+	@keyframes hopin-6{
+		0%{transform: translateY(-1000px)}
+		62.5%{transform: translateY(-1000px)}
+		75%{transform: translateY(0px)}
+	}
+	@keyframes hopin-7{
+		0%{transform: translateY(-1000px)}
+		75%{transform: translateY(-1000px)}
+		87.5%{transform: translateY(0px)}
+	}
+	@keyframes hopin-8{
+		0%{transform: translateY(-1000px)}
+		87.5%{transform: translateY(-1000px)}
+		100%{transform: translateY(0px)}
+	}
+</style>
