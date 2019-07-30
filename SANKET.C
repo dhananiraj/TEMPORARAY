@@ -23,6 +23,10 @@ int main(){
 	s[0] = '\0';
 	for(k = 0; k < l; k++){
 		x = ip[k];
+		if(k == l - 1){
+			flag = 1;
+		}
+
 		if(x == '.'){
 			if(z == 0){
 				ip2[c] = '0';
@@ -47,11 +51,9 @@ int main(){
 
 
 	}
+
 	ip2[c] = '\0';
-		//for(i = start, j = 0; i < end ; i++){
-		  //	s[j++] = ip[i];
-		//}
-	s[j] = '\0';
+
 	printf("%s",ip2);
 	getch();
 	return 0;
