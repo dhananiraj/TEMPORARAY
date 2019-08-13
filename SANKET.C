@@ -2,14 +2,6 @@
 #include<conio.h>
 #include<string.h>
 
-char * sub(char *str , int start, int end){
-    int i = 0, j = 0;
-    char * substr;
-    for(i = start, j = 0; i < end ; i++){
-	substr[j++] = str[i];
-    }
-    return (substr);
-}
 
 int main(){
 	char ip[40],s[40],ip2[40];
